@@ -1,0 +1,13 @@
+# This is a sample .condarc file
+# a condarc file should be placed in $HOME/.condarc
+
+channels:
+  - conda-forge
+  - https://conda.binstar.org/Noorzalianee
+  - defaults
+  - http://conda.binstar.org/Noorzalianee
+envs_dirs:
+  - /exports/csce/eddie/geos/groups/eddie_geos_LandSurfaceDynamics/s1475936/conda_env
+pkgs_dirs:
+  - /exports/csce/eddie/geos/groups/eddie_geos_LandSurfaceDynamics/s1475936/PIP_install
+binstar_upload: yes
